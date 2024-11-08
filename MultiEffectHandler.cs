@@ -21,6 +21,7 @@ namespace LogansMultiEffectHandler
             effects = GetComponentsInChildren<VisualEffect>();
         }
 
+        [ContextMenu("z call PlayAll()")]
         public void PlayAll()
         {
             if (effects != null && effects.Length > 0)
